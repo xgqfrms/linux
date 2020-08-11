@@ -4,14 +4,19 @@
 
 https://github.com/xgqfrms/learning/tree/gh-pages/Back-End/Linux
 
-# Bash Shell
+## .zshrc !== .bash_profile
+
+https://www.cnblogs.com/xgqfrms/p/10542068.html
+
+
+## Bash Shell
 
 ## cd
 
 ```sh
 # root
 $ cd /
-# OR 
+# OR
 $ cd /.
 
 $ cd ~
