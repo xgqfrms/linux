@@ -1,0 +1,13 @@
+{
+  "Bash Shell Template": {
+    "prefix": "bst",
+    "body": [
+      "#!/usr/bin/env bash",
+      "",
+      "echo 🎉 emoji ^-v-^",
+      "echo \"🎉 emoji ^-v-^\"",
+      ""
+    ],
+    "description": "Bash Shell Template & code snippets!"
+  }
+}
