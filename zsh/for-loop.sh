@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
-echo 🎉 emoji ^-v-^
-# -e 换行
-echo -e "\n"
+echo "🎉 emoji ^-v-^"
+
+# -e 换行, \n\r 两行 bug
+# echo -e "\n"
+# 换一行 ✅
+echo ""
 
 arg1=$1
 arg2=$2
@@ -33,27 +36,36 @@ arg12=${12}
 # 🚀 ✅, 参数可以为空
 all=$((arg1 + arg2 + arg3 + arg4 + arg5 + arg6 + arg7 + arg8 + arg9 + arg10 + arg11 + arg12))
 
-# -e 换行
-echo -e "\n"
 echo $all
 
-# -e 换行
-echo -e "\n"
+# -e 换行, \n\r 两行 bug
+# echo -e "\n"
+# 换一行 ✅
+echo ""
 
 # \ 转义符
 echo "\$* 参数整体:" $*
 echo "\$@ 参数列表:" $@
 echo "\$# 参数个数:" $#
 
+# ✅ 终止，结束，闭合 echo "" $var
+# echo ""
 
-​for i in "$*"
+# ​for i in "$*" do echo "\$* 参数整体, 参数 i = $i" done
+# ​for j in "$@" do echo "\$@ 参数列表, 参数 j" $j done
+
+for i in "$*"
 do
-  echo "\$* 参数整体, 参数 i" $i
+  # ✅ 终止，结束，闭合 echo "$var" 👍
+  # echo "\$* 参数整体, 参数 i = $i"
+  echo "\$* 参数整体, 参数 i = " $i
 done
 
-​for j in "$@"
+for j in "$@"
 do
+  # not close echo "" $var 👎
   echo "\$@ 参数列表, 参数 j" $j
+  # echo "\$@ 参数列表, 参数 j $j"
 done
 
 # DEMO
