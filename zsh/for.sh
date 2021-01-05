@@ -45,12 +45,14 @@ echo "\$# 参数个数:" $#
 
 echo ""
 
-​for i in "$*"
+for i in "$*"
 do
   echo "\$* 参数整体, 参数 i" $i
 done
 
-​for j in "$@"
+# <U+200B> for, Zero Width Space ❌
+# ​for j in "$@"
+for j in "$@"
 do
   echo "\$@ 参数列表, 参数 j" $j
 done
