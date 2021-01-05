@@ -17,10 +17,14 @@ $ chmod +x sum.sh
 # OR
 $ chmod +x ./sum.sh
 
-$ chmod +777 sum.sh
-$ chmod +755 sum.sh
+$ chmod 777 sum.sh
+$ chmod 755 sum.sh
 
 ```
+
+## Linux 777 权限分组
+
+https://www.cnblogs.com/xgqfrms/p/9546961.html
 
 ```sh
 $ echo $PS0
