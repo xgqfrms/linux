@@ -4,6 +4,12 @@
 $ cat .zshrc
 $ vim .zshrc
 $ code .zshrc
+
+$ code ~/.zshrc
+# source ~/.zshrc
+
+$ code ~/.bash_profile
+# source ~/.bash_profile
 ```
 
 ## .zshrc !== .bash_profile
