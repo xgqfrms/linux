@@ -1,0 +1,32 @@
+
+/Users/xgqfrms
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/xgqfrms/.cargo/bin
+TERM_PROGRAM=vscode
+TERM=xterm-256color
+SHELL=/bin/zsh
+TMPDIR=/var/folders/ps/vn8mj5ps32l6f0sgk695db3w0000gn/T/
+TERM_PROGRAM_VERSION=1.52.0
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+ZSH=/Users/xgqfrms/.oh-my-zsh
+USER=xgqfrms
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.iGrCY0CTnw/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+PAGER=less
+LSCOLORS=Gxfxcxdxbxegedabagacad
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/xgqfrms/.cargo/bin
+PWD=/Users/xgqfrms/Documents/GitHub/linux/bash
+LANG=en_US.UTF-8
+LOCAL_GIT_DIRECTORY=/Users/xgqfrms/Downloads/安装包/GitHub Desktop.app/Contents/Resources/app/git
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=3
+HOME=/Users/xgqfrms
+VSCODE_GIT_ASKPASS_MAIN=/private/var/folders/ps/vn8mj5ps32l6f0sgk695db3w0000gn/T/AppTranslocation/B1260620-E804-4DDF-9631-DA7188EEB270/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true
+LESS=-R
+LOGNAME=xgqfrms
+VSCODE_GIT_IPC_HANDLE=/var/folders/ps/vn8mj5ps32l6f0sgk695db3w0000gn/T/vscode-git-1c1e9d5553.sock
+VSCODE_GIT_ASKPASS_NODE=/private/var/folders/ps/vn8mj5ps32l6f0sgk695db3w0000gn/T/AppTranslocation/B1260620-E804-4DDF-9631-DA7188EEB270/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)
+GIT_ASKPASS=/private/var/folders/ps/vn8mj5ps32l6f0sgk695db3w0000gn/T/AppTranslocation/B1260620-E804-4DDF-9631-DA7188EEB270/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+COLORTERM=truecolor
+_=/usr/bin/env

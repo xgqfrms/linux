@@ -11,6 +11,30 @@ https://www.cnblogs.com/xgqfrms/p/10542068.html
 
 ## Bash Shell
 
+```sh
+# zsh: permission denied:
+$ chmod +x sum.sh
+# OR
+$ chmod +x ./sum.sh
+
+$ chmod +777 sum.sh
+$ chmod +755 sum.sh
+
+```
+
+```sh
+$ echo $PS0
+
+$ echo $PS1 
+# %(?:%{%}➜ :%{%}➜ ) %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)
+$ echo $PS2
+# %_> 
+$ echo $PS3
+# ?# 
+$ echo $PS4
+# +%N:%i> 
+
+```
 ## cd
 
 ```sh
