@@ -10,6 +10,9 @@ read write execute
 |               |               |         |
 
 
+https://www.google.com/search?q=chmod+77+xgqfrms
+
+
 
 ```sh
 
