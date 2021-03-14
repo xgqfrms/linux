@@ -95,13 +95,32 @@ $ tree -L 3 -I "node_modules"
 
 ```
 
-***
+## mikdir
 
-mikdir
+```sh
+$ mkdir folder
 
-touch
+```
+
+## touch
+
+```sh
+$ touch index.js index.css index.html
+
+```
+
+## echo
+
+```sh
+
+$ echo overlay text > readme.md
+
+$ echo append text >> readme.md
+
+```
 
 
+## todos
 
 ipconfig
 
